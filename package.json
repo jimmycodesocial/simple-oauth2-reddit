@@ -1,0 +1,39 @@
+{
+  "name": "simple-oauth2-reddit",
+  "version": "0.5.0",
+  "description": "A simple Node.js client library for Reddit OAuth2.",
+  "keywords": [
+    "oauth2",
+    "auth2-client",
+    "reddit",
+    "reddit-api",
+    "reddit-login",
+    "reddit-auth",
+    "reddit-oauth",
+    "simple-oauth2"
+  ],
+  "author": "JimmyCode Social <hi@jimmycode.com>",
+  "contributors": [
+    {
+      "name": "Alberto Menendez Romero",
+      "url": "https://www.linkedin.com/in/albertomr86/"
+    }
+  ],
+  "homepage": "https://github.com/jimmycodesocial/simple-oauth2-reddit",
+  "bugs": {
+    "url": "https://github.com/jimmycodesocial/simple-oauth2-reddit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmycodesocial/simple-oauth2-reddit.git"
+  },
+  "engine": {
+    "node": ">=8.0"
+  },
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "simple-oauth2": "^2.2.0"
+  }
+}
