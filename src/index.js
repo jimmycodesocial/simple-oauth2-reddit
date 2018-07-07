@@ -98,8 +98,15 @@ module.exports = {
     // Middleware to request access_token.
     const accessToken = (req, res, next) => {
       const code = req.query.code;
+
       if (!code) {
-        return next(new Error('SimpleOAuth2Reddit expects [code] param in the request'));
+        const error = new Error('SimpleOAuth2Reddit expects [code] param in the request');
+
+        if (args.returnError) {
+          req.tokenError = error;
+        }
+
+        return next(args.returnError ? null : error);
       }
   
       // Exchange code for access_token.
