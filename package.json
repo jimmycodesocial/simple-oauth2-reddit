@@ -1,6 +1,6 @@
 {
-  "name": "simple-oauth2-reddit",
-  "version": "0.5.1",
+  "name": "@jimmycode/simple-oauth2-reddit",
+  "version": "0.6.0",
   "description": "A simple Node.js client library for Reddit OAuth2.",
   "keywords": [
     "oauth2",

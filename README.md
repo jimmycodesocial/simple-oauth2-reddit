@@ -11,19 +11,19 @@ Latest Node 8 LTS or newer versions.
 ## Getting started
 
 ```
-npm install --save simple-oauth2 simple-oauth2-reddit
+npm install --save simple-oauth2 @jimmycode/simple-oauth2-reddit
 ```
 
 or 
 
 ```
-yarn add simple-oauth2 simple-oauth2-reddit
+yarn add simple-oauth2 @jimmycode/simple-oauth2-reddit
 ```
 
 ### Usage
 
 ```js
-const simpleOAuth2Reddit = require('simple-oauth2-reddit');
+const simpleOAuth2Reddit = require('@jimmycode/simple-oauth2-reddit');
 const reddit = simpleOAuth2Reddit.create(options);
 ```
 
@@ -113,7 +113,7 @@ router.get('/auth/reddit/callback', async(req, res) => {
 ### With SimpleOAuth2Reddit
 
 ```js
-const simpleOAuth2Reddit = require('simple-oauth2-reddit');
+const simpleOAuth2Reddit = require('@jimmycode/simple-oauth2-reddit');
 
 const reddit = simpleOAuth2Reddit.create({
   clientId: process.env.REDDIT_APP_ID,
